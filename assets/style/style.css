@@ -121,3 +121,50 @@ nav ul li {
   background-color: #ffc0cb; /* Da eliminare successivamente */
   border: 1px dashed white; /* Da eliminare successivamente */
 }
+
+/* FOOTER */
+footer {
+  background-color: #23272a;
+}
+
+.upper-footer {
+  display: flex;
+  height: 400px;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+}
+
+.upper-footer-left {
+  background-color: #f08080; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.upper-footer-right {
+  background-color: #20b2aa; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  width: 70%;
+  display: flex;
+}
+
+.footer-right-column {
+  border: 1px dashed white; /* Da eliminare successivamente */
+  width: 25%;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #7fffd4; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
+
+.lower-footer .logo,
+.lower-footer .footer-btn {
+  background-color: #ffb6c1; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
