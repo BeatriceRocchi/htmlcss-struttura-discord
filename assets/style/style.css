@@ -27,7 +27,6 @@ header {
 
 header .container-large {
   background-color: #6182dd; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
   display: flex;
   color: white;
 }
@@ -79,4 +78,46 @@ nav ul li {
 
 .btn-container .btn-big {
   margin: 0 10px;
+}
+
+/* MAIN */
+.section-odd {
+  background-color: #ffffff;
+}
+
+.section-even {
+  background-color: #f6f6f6;
+}
+
+.section-study-group,
+.section-voice-channel,
+.section-community,
+.section-download {
+  padding: 40px 0;
+}
+
+.section-study-group .container-large,
+.section-voice-channel .container-large,
+.section-community .container-large {
+  display: flex;
+  height: 400px; /* Da eliminare successivamente */
+}
+
+.section-download .container-large {
+  height: 500px; /* Da eliminare successivamente */
+  background-color: green; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  text-align: center;
+}
+
+.section-image {
+  width: 60%;
+  background-color: #1e90ff; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
+
+.section-text {
+  width: 40%;
+  background-color: #ffc0cb; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
 }
