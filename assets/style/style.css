@@ -9,8 +9,13 @@ li {
   list-style: none;
 }
 
-.container {
+.container-large {
   max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -20,16 +25,15 @@ header {
   padding: 20px 0;
 }
 
-header .container {
+header .container-large {
   background-color: #6182dd; /* Da eliminare successivamente */
   border: 1px dashed white; /* Da eliminare successivamente */
   display: flex;
-  justify-content: space-between;
   color: white;
 }
 
 header .logo,
-header .btn {
+header .header-btn {
   width: 20%;
   border: 1px dashed white; /* Da eliminare successivamente */
   padding: 10px;
@@ -50,6 +54,29 @@ nav ul li {
   margin: 0 10px;
 }
 
-.btn {
-  text-align: end;
+.header-btn {
+  text-align: right;
+}
+
+/* HERO  */
+.hero {
+  background-color: #00008b; /* Da eliminare successivamente */
+  padding: 40px 0;
+}
+
+.hero .container-small {
+  background-color: #ee82ee; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  height: 300px; /* Da eliminare successivamente */
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-container .btn-big {
+  margin: 0 10px;
 }
